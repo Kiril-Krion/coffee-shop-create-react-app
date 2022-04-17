@@ -16,7 +16,7 @@ export default class MainHeader extends Component {
             <h2 className="header__content-sub">We makes every day full of energy and taste</h2>
             <h2 className="header__content-qa">Want to try our beans?</h2>
 
-            <a className="btn">More</a>
+            <a className="btn" href="#About">More</a>
           </div>
       </div>
     )

@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
-import AboutOutBeans from '../components/about-out-beans/about-out-beans'
-import CoffeeItems from '../components/coffee-list/coffee-list'
+import PleasureHeader from '../components/pleasure-header/pleasure-header';
+import AboutOurGoods from '../components/about-our-goods/about-our-goods';
+import SimpleItems from '../components/simple-items/simple-items';
 import Footer from '../components/footer/footer'
-import MiniHeader from '../components/mini-header/miniHeader'
 
 export default class Pleasure extends Component {
   render() {
     return (
       <div>
-        <MiniHeader />
-        <AboutOutBeans />
-        <CoffeeItems />
+        <PleasureHeader />
+        <AboutOurGoods />
+        <SimpleItems />
         <Footer />
       </div>
     )

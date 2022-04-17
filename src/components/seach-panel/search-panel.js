@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-
 import './search-panel.scss';
 
 
@@ -15,8 +14,7 @@ export default class SearchPanel extends Component {
     const term = e.target.value;
     this.setState({term});
     this.props.onUpdateSearch(term)
-}
-
+  }
 
 
 
@@ -34,9 +32,7 @@ export default class SearchPanel extends Component {
                   onChange={this.onUpdateSearch}/>
 
                   <label className="second-simple-text">Or filter</label>
-                  <button className="btn-filter btn">Brazil</button>
-                  <button className="btn-filter btn">Kenya</button>
-                  <button className="btn-filter btn">Columbia</button>
+
               </div>
           </div>
           

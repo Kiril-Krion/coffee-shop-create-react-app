@@ -33,4 +33,30 @@
     border: none;
     cursor: pointer;
     margin-right: 5px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background-color: rgb(56, 50, 50);
+        color: #fff;
+    }
+}
+.btn-active {
+    font-family: $font-meriada;
+    width: 75px;
+    height: 30px;
+    background-color: rgb(56, 50, 50);
+    color: #fff;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.search-panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-group {
+    transform: translateY(28px);
 }

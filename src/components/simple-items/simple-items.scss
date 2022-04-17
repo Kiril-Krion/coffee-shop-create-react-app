@@ -1,0 +1,26 @@
+.coffee__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    grid-row-gap: 70px;
+    padding-top: 61px;
+    padding-bottom: 80px;
+
+    .coffee__item {
+        width: 174px;
+        height: 260px;
+        padding: 37px 39px 10px;
+        text-align: center;
+        background: #fff;
+        border-radius: 8px;
+        filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+
+        .coffee__item-title {
+            font-size: 14px;
+        }
+        .coffee__item-country, .coffee__item-price {
+            font-size: 14px;
+            text-align: right;
+        }
+    }
+}

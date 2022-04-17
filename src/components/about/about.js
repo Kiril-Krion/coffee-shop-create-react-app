@@ -9,7 +9,7 @@ export default class About extends Component {
     return (
       <div>
           <div className="container">
-            <div className="about">
+            <div className="about" id="About">
                 <h2 className="about__title">About</h2>
                 <img src={beansLogo} alt="beans logo" />
                 <p className="about__sub">Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible. <br />
