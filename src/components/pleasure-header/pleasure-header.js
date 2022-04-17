@@ -7,9 +7,9 @@ export default class PleasureHeader extends Component {
   render() {
     return (
       <div>
-          <div className="header__container">
+          <div className="second-header__container">
             <Header />
-            <h1 className="header__title">For your pleasure</h1>
+            <h1 className="second-header__title">For your pleasure</h1>
           </div>
       </div>
     )

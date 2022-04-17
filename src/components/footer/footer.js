@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
+
 import './footer.scss';
 import logo from '../assets/black-logo.svg';
 import logoBeans from '../assets/Beans logo.svg';
@@ -10,9 +12,9 @@ export default class Footer extends Component {
           <footer className="footer__container">
               <div className="container">
                 <div className="footer__item">
-                    <a href="/"><img className="logo__img" src={logo} alt="logo"/></a>
-                    <a className="footer__link" href="/our-coffee">Our coffee</a>
-                    <a className="footer__link" href="/pleasure">For your pleasure</a>
+                    <Link to="/"><img className="logo__img" src={logo} alt="logo"/></Link>
+                    <Link to="/our-coffee" className="footer__link">Our coffee</Link>
+                    <Link to="/pleasure" className="footer__link">For pleasure</Link>
                 </div>
                 
                 <img className="footer__beans" src={logoBeans} alt="logoBeans" />
