@@ -21,7 +21,7 @@ export default class OurCoffee extends Component {
         term: '',
         filter: ''
     }
-}
+  }
 
   searchEmp = (items, term) => {
     if (term.length === 0) {

@@ -1,0 +1,20 @@
+.about__coffee-items {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    
+    .about__coffee-text {
+        margin-left: 50px;
+        text-align: center;
+
+        .about__coffee-country, .about__coffee-desc, .about__coffee-price {
+            text-align: left;
+        }
+        .about__coffee-desc span {
+            font-weight: bold;
+        }
+        .price {
+            font-size: 24px;
+        }
+    }
+}
