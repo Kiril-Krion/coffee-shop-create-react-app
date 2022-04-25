@@ -29,7 +29,7 @@ export default class OurCoffee extends Component {
     }
 
     return items.filter(item => {
-        return item.country.indexOf(term) > -1
+        return item.country.toLowerCase().indexOf(term.toLowerCase()) > -1
     })
   }
 

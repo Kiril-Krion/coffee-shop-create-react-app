@@ -1,5 +1,5 @@
 import coffeeItem from '../assets/our-coffee-item-image.jpg';
-import logoBeans from '../assets/Beans logo.svg'
+import logoBeans from '../assets/Beans logo.svg';
 
 import './about-coffee.scss';
 

@@ -6,6 +6,7 @@
     padding-top: 61px;
     padding-bottom: 80px;
 
+
     .coffee__item {
         width: 174px;
         height: 260px;
@@ -14,6 +15,7 @@
         background: #fff;
         border-radius: 8px;
         filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+        transition: all .3s ease-in-out;
 
         .coffee__item-title {
             font-size: 14px;
