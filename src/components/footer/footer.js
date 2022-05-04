@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 
 import './footer.scss';
-import logo from '../assets/black-logo.svg';
-import logoBeans from '../assets/Beans logo.svg';
+import logo from '../../assets/black-logo.svg';
+import logoBeans from '../../assets/Beans logo.svg';
 
 export default class Footer extends Component {
   render() {

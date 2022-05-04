@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import coffeeItem from '../assets/coffee-item-image.png';
+import coffeeItem from '../../assets/coffee-item-image.png';
 
 import '../coffee-list/coffee-list.scss';
 

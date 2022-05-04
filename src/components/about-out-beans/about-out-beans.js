@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 import './about-out-beans.scss'
-import firstBeans from '../assets/our-coffee-img.png';
-import logoBeans from '../assets/Beans logo.svg'
+import firstBeans from '../../assets/our-coffee-img.png';
+import logoBeans from '../../assets/Beans logo.svg';
 
 export default class AboutOutBeans extends Component {
   render() {

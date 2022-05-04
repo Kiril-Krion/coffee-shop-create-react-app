@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import beansLogo from '../assets/Beans logo.svg'
+import beansLogo from '../../assets/Beans logo.svg'
 
 import './about.scss';
 

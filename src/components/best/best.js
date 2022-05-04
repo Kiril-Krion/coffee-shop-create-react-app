@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 
 import './best.scss';
-import solimoCoffee from '../assets/coffee-item-image.png';
-import firstItemImage from '../assets/first-image-item.png';
-import secondItemImage from '../assets/second-image-item.png';
+import solimoCoffee from '../../assets/coffee-item-image.png';
+import firstItemImage from '../../assets/first-image-item.png';
+import secondItemImage from '../../assets/second-image-item.png';
 
 export default class Best extends Component {
   render() {

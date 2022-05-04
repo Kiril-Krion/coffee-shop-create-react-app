@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import coffeeItem from '../assets/coffee-item-image.png';
+import coffeeItem from '../../assets/coffee-item-image.png';
 import './simple-items.scss';
 
 export default class SimpleItems extends Component {

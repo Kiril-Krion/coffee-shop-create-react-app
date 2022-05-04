@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Header from '../header/header';
 import './main-header.scss';
 
-import beansWhiteLogo from '../assets/Beans-white.svg';
+import beansWhiteLogo from '../../assets/Beans-white.svg';
 
 
 export default class MainHeader extends Component {

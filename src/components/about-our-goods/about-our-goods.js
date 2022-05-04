@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 import './about-our-goods.scss';
-import firstBeans from '../assets/second-our-coffee.png';
-import logoBeans from '../assets/Beans logo.svg'
+import firstBeans from '../../assets/second-our-coffee.png';
+import logoBeans from '../../assets/Beans logo.svg';
 
 export default class AboutOurGoods extends Component {
   render() {
